@@ -78,7 +78,7 @@ a:hover{
   color: teal;
 }
 
-#next{
+.events{
   background-color: #303030;
   color:white;
 }
@@ -185,7 +185,7 @@ a:hover{
   position: relative;
   top:  55px;
 }
-#next h2{
+.events h2{
   margin-bottom: 80px;
 }
 
@@ -229,4 +229,23 @@ a:hover{
   div.term ~ div.term {
     margin-left: 50px;
   }
+}
+
+.next-event, .next-event p {
+    text-align: center;
+}
+
+.next-title{
+    font-size: 32px;
+    line-height: 1.1em;
+    margin: 0;
+}
+
+.next-location {
+    margin: 0;
+}
+
+.next-register {
+    font-size: 24px;
+    font-weight: bold;
 }
