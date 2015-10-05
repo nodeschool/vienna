@@ -50,6 +50,16 @@ header h1 .where{
 header h1 .where{
   margin: 0 auto;
 }
+
+.logo {
+    display: block;
+    float: right;
+    margin-top: -20px;
+    width: 150px;
+    height: 150px;
+    background: url(./nodeschool_vienna.svg) no-repeat;
+}
+
 footer{
   height: 160px;
   background: url('node-js.svg') center center no-repeat;
